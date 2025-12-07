@@ -1,7 +1,7 @@
 package designpatterns16.Stockmonitor;
 
 import designpatterns16.design_patterns.observer.IObserver;
-import designpatterns16.inventory.StockItem;
+import designpatterns16.Stockmonitor.StockItem;
 
 public class CriticalStockObserver implements IObserver {
 

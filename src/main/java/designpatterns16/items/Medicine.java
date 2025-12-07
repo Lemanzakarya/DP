@@ -14,8 +14,8 @@ public class Medicine extends Consumable {
         return drugForm;
     }
 
-    public void setDrugType(String drugType) {
-        this.drugType = drugType;
+    public void setDrugForm(String drugForm) {
+        this.drugForm = drugForm;
     }
 
     @Override
@@ -24,7 +24,7 @@ public class Medicine extends Consumable {
                "name='" + name + '\'' +
                ", type='" + type + '\'' +
                ", pricePerUnit=" + pricePerUnit +
-               ", drugForm='" + drugType + '\'' +
+               ", drugForm='" + drugForm + '\'' +
                '}';
     }
 }
