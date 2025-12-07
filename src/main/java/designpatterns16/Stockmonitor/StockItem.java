@@ -1,4 +1,4 @@
-package designpatterns16.inventory;
+package designpatterns16.Stockmonitor;
 
 import designpatterns16.design_patterns.observer.IObserver;
 import designpatterns16.design_patterns.observer.ISubject;
