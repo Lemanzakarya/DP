@@ -5,5 +5,5 @@ package designpatterns16.design_patterns.observer;
 public interface ISubject {
     void addObserver(IObserver observer);
     void removeObserver(IObserver observer);
-    void notify();
+    void notifyObservers();
 }

@@ -8,13 +8,12 @@ import designpatterns16.design_patterns.observer.ISubject;
 //(e.g., bandages, gloves, syringes, medicine).
 // Being observed for alarms when nearing expiration/out of stock.
 public abstract class Consumable extends Item{
-    protected String name;
     protected String type;
     protected Double pricePerUnit;
 
     Consumable(String name, String type, Double pricePerUnit){
+        super(name);
         this.type = type;
-        this.name = name;
         this.pricePerUnit = pricePerUnit;
     }
     public String getName() {
